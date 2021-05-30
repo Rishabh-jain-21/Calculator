@@ -59,8 +59,8 @@ else
 }
     })
 }
-var menu = document.getElementById(menubar);
-menu.addEventListener('click' , (t)=>
+var menu = document.getElementById('menubar');
+menu.addEventListener('click' , (e)=>
 {
     alert('This feature will be avalible soon Thanks for Using');
 })
